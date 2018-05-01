@@ -1,0 +1,297 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="description" content="Information System Case Competition ISCC 2017">
+    <meta name="keywords" content="Information System, Case, Competition, BINUS, BINUS International, BASIS, University">
+    <meta name="author" content="BINUS International Society of Information System (BASIS)">
+    <title>Coming Soon! | Information System Case Competition</title>
+
+    <!-- JQuery -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+    <!-- Optional theme -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+
+    <!-- Latest compiled and minified JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+
+    <style>
+      @font-face {
+        font-family: 'octa';
+        src: url("./font/OCTAPOST_1.ttf");
+      }
+
+      @font-face {
+        font-family: 'aqua';
+        src: url("./font/aqua.ttf");
+      }
+
+
+      @media (min-width: 1000px) {
+       .line-left img{
+         /*-ms-transform: rotate(90deg); /* IE 9 */
+         /*-webkit-transform: rotate(90deg); /* Chrome, Safari, Opera */
+         /*transform: rotate(90deg);*/
+         width: 120%;
+         position: absolute;
+         top: 100px;
+         left: 0px;
+       }
+       .line-right img{
+         /*-ms-transform: rotate(90deg); /* IE 9 */
+         /*-webkit-transform: rotate(90deg); /* Chrome, Safari, Opera */
+         /*transform: rotate(90deg);*/
+         position: absolute;
+         width: 120%;
+         top:  120px;
+         right: 0px;
+       }
+     }
+
+     .logo img{
+       width: 100%;
+     }
+
+     .logo{
+       padding: 0px 100px;
+     }
+
+     .content{
+        margin-top: 120px;
+        text-align: center;
+     }
+
+     .coming-soon{
+      font-family: 'octa';
+      color: #ffffff;
+      font-size: 40px;
+      text-align: center;
+      margin-top: 30px
+     }
+
+     .container-fluid{
+       overflow: hidden;
+     }
+
+     .scanning-container{
+       border-bottom: 2px solid #3cbdb1;
+       padding-bottom: 3px;
+       text-align: center;
+     }
+     .scanning{
+     }
+
+     .scanning img{
+       width: 50%;
+     }
+
+     .contact img{
+       position: absolute;
+       left: -7px;
+       width: 90px;
+       top: 211px;
+       -webkit-animation:spin 1.5s linear infinite;
+       -moz-animation:spin 1.5s linear infinite;
+        animation:spin 1.5s linear infinite;
+     }
+
+     @-moz-keyframes spin { 100% { -moz-transform: rotate(360deg); } }
+     @-webkit-keyframes spin { 100% { -webkit-transform: rotate(360deg); } }
+     @keyframes spin { 100% { -webkit-transform: rotate(360deg); transform:rotate(360deg); } }
+
+     .contact-content{
+        position: absolute;
+        top: 181px;
+        left: 0px;
+        width: 100%;
+      }
+
+     .contact-content h1, h2{
+       color: #ffffff;
+     }
+
+     .contact-content h1{
+       font-family: "octa";
+       font-size: 25px;
+     }
+
+     .contact-content h2{
+       font-size: 20px;
+       font-family: 'aqua';
+     }
+
+    @media (max-width: 996px) {
+      .line-left img, .line-right img{
+        position: relative;
+        width: 100%;
+        top: 0px;
+      }
+
+      .scanning img{
+        width: 100%;
+      }
+
+      .contact img{
+        width: 20%;
+        position: absolute;
+        left: 13%;
+        top: 44%;
+      }
+
+      .contact-content {
+        position: relative;
+        width: 50%;
+        left: 25%;
+        top: 40%;
+      }
+    }
+
+    body{
+      background: url("./2.jpg");
+      background-size: cover;
+      background-repeat: no-repeat;
+    }
+
+    .footer, .footer ul{
+      text-align: center;
+    }
+
+    .footer li{
+      text-decoration: none;
+      display: inline-block;
+      padding-right: 50px
+    }
+
+    .footer li img{
+      width: 100px;
+    }
+
+    .footer{
+      background-color: #ffffff;
+    }
+/*
+    @media (max-width: 768px) {
+      .line-left img, .line-right img{
+        position: relative;
+        width: 100%;
+        top: 0px;
+      }
+    }
+
+    @media (max-width: 576px) {
+      .line-left img, .line-right img{
+        position: relative;
+        width: 100%;
+        top: 0px;
+      }
+    }
+
+    @media (max-width: 400px) {
+      .line-left img, .line-right img{
+        position: relative;
+        width: 100%;
+        top: 0px;
+      }
+    }
+*/
+    </style>
+
+  </head>
+
+  <body>
+    <div class="container-fluid">
+      <!-- logo -->
+      <div class="row content">
+        <div class="col-lg-3 col-md-12 col-sm-12 col-xs-12 line-left">
+          <img src="./icon/line-left2.svg" />
+        </div>
+        <div class="col-lg-6 col-md-12 col-sm-12 col-xs-12 logo" >
+          <img src="./logo/ISCC 2017_NEW LOGO_ONLY.png" />
+        </div>
+
+        <div class="col-lg-3 col-md-12 col-sm-12 col-xs-12 line-right">
+          <div class=row>
+            <img src="./icon/line-right2.svg" />
+          </div>
+          <div class=row>
+            <div class="contact">
+              <img src="./icon/contact.svg" />
+              <div class="contact-content">
+                <h1>Contact us</h1>
+                <h2>Alixia Shafira C. </h2>
+                <h2> (+62)878-8873-8448</h2>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- logo -->
+
+      <!-- coming soon -->
+      <div class="row">
+        <div class="col-lg-12 col-sm-12 col-xs-12 coming-soon">
+          coming soon
+        </div>
+      </div>
+      <!-- coming soon -->
+
+      <div class="row scanning-container">
+        <!-- scanning -->
+        <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 scanning">
+          <img src="./icon/scanning.svg" />
+        </div>
+        <!-- scanning -->
+
+        <!-- contact -->
+        <!-- <div class="col-lg-4 col-md-12 col-sm-12 col-xs-12 contact">
+          <img src="./icon/contact.svg" />
+        </div> -->
+        <!-- contact -->
+
+      </div>
+
+      <!-- footer -->
+      <div class="row footer">
+        <!-- <div class="row"> -->
+        <ul>
+          <li>
+          <!-- <div class="col-lg-2 col-md-4 col-sm-12 col-xs-12"> -->
+            <img src="logo/basis2016.png" />
+          </li>
+
+          <li>
+          <!-- </div> -->
+          <!-- <div class="col-lg-2 col-md-4 col-sm-12 col-xs-12"> -->
+            <img src="logo/binus2016.png" style="width: 120px;" />
+          <!-- </div> -->
+          </li>
+
+          <li>
+        <!-- </div> -->
+        <!-- <div class="row"> -->
+          <!-- <div class="col-lg-2 col-md-4 col-sm-12 col-xs-12"> -->
+            <img src="logo/infokampus.png" />
+          <!-- </div> -->
+          </li>
+
+          <li>
+          <!-- <div class="col-lg-2 col-md-4 col-sm-12 col-xs-12"> -->
+            <img src="logo/infopensi.png" />
+          <!-- </div> -->
+          </li>
+
+          <li>
+          <!-- <div class="col-lg-2 col-md-4 col-sm-12 col-xs-12"> -->
+            <img src="logo/kitatv.png" />
+          <!-- </div> -->
+        <!-- </div> -->
+        </li>
+      </ul>
+      </div>
+    </div>
+  </body>
+</html>
