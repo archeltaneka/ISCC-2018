@@ -11,6 +11,10 @@
 </head>
 <body>
 	<?php include("header.php");?>
+	<div class="container">
+		<h1 class="title" style="color: #CDA74B">timeline</h1>
+		<!-- ini sebenernya gw udh masukin gambar namanya timeline.jpg sama timeline2.jpg di folder Assets(pilih aja salah satu yg menurut lu bagus), tapi kalo lu mau buat sendiri design nya ikutin itu jg gpp-->
+	</div>
 	<div class="container v-center">
 		<h1 class="title">preliminary rules</h1>
 		<ol class="content">
