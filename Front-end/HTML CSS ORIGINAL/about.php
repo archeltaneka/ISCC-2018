@@ -57,30 +57,6 @@
 		<h5 class="title" style="color: #CDA74B">(for semi finalists)</h5>
 		<p class="description" style="color: #00877D">For those prefer to book an accomodation, a stay at Binus Square Hall of Residence is offered at rate of Rp. 100,000/room/night</p>
 	</div>
-
-	<script src="https://cdnjs.cloudflare.com/ajax/libs/trianglify/1.1.0/trianglify.min.js"></script>
-	<script>
-		var pattern = Trianglify({
-			seed: 'ISCC2018',
-			cell_size: 90,
-			variance: 1,
-			x_colors: ['#ACACAC', '#FFFFFF', '#ACACAC'],
-			y_colors: 'match_x',
-			width: window.innerWidth,
-			height: window.innerHeight
-		});
-		document.body.appendChild(pattern.canvas())
-	</script>
-	<script>
-		function myMap() {
-			var mapOptions = {
-			    center: new google.maps.LatLng(-6.224203, 106.803949),
-			    zoom: 15,
-			    mapTypeId: google.maps.MapTypeId.ROADMAP
-			}
-			var map = new google.maps.Map(document.getElementById("map"), mapOptions);
-		}
-	</script>
 	<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBu-916DdpKAjTmJNIgngS6HL_kDIKU0aU&callback=myMap"></script>
 </body>
 </html>

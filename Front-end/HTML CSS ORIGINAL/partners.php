@@ -59,45 +59,5 @@
 		</div>
 	</div>
 	<script src="https://code.jquery.com/jquery-3.2.1.min.js" crossorigin="anonymous"></script>
-	<script src="https://cdnjs.cloudflare.com/ajax/libs/trianglify/1.1.0/trianglify.min.js"></script>
-	<script>
-		var myCanvas = document.createElement('canvas');
-		var pattern = Trianglify({
-			seed: 'ISCC2018',
-			cell_size: 90,
-			variance: 0.1,
-			x_colors: ['#ACACAC', '#FFFFFF', '#ACACAC'],
-			y_colors: 'match_x',
-			width: window.innerWidth,
-			height: window.innerHeight
-		});
-		// console.log(pattern.setAttribute("variance",0));
-		document.body.appendChild(pattern.canvas())
-
-		var screen = $(window).height();
-		var body = $(document).height();
-		$(window).scroll(function (event) {
-			var top = $(window).scrollTop();
-			var ratio = top/(body-screen);
-			var ratiorounded = parseFloat(ratio.toFixed(2));
-			if(ratiorounded>=0.1 && top <= body-screen){
-				if($("canvas").length>2){
-					$("canvas")[0].remove();
-				}
-				pattern = Trianglify({
-					seed: 'ISCC2018',
-					cell_size: 90,
-					variance: ratiorounded,
-					// x_colors: ['#ACACAC', '#FFFFFF', '#ACACAC'],
-					x_colors: ['#ACACAC', '#FFFFFF', '#ACACAC'],
-					y_colors: 'match_x',
-					width: window.innerWidth,
-					height: window.innerHeight
-				});
-				document.body.appendChild(pattern.canvas())
-				// console.log(top/(body-screen));
-			}
-		});
-	</script>
 </body>
 </html>

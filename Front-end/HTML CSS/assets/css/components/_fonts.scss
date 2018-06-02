@@ -1,0 +1,57 @@
+$font_1: 'Roboto', sans-serif;
+$font_2: 'Raleway', sans-serif;
+$font_3: 'Nunito Sans', sans-serif;
+
+%font-1 {
+	font-family: $font_1;
+	font-weight: 700;
+}
+%font-2 {
+	font-family: $font_2;
+}
+%font-3 {
+	font-family: $font_3;
+}
+
+.title {
+	@extend %font-1;
+	font-size: 48px;
+	padding: 25px 0;
+	letter-spacing: 2px;
+	text-transform: capitalize;
+}
+.subtitle {
+	@extend %font-2;
+	font-size: 25px;
+	padding: 10px 0;
+	text-transform: lowercase;
+}
+.body {
+	@extend %font-3;
+	font-size: 18px;
+	line-height: 1.5;
+}
+ol.body {
+	list-style-type: lower-alpha;
+	list-style-position: inside;
+}
+
+.bold {
+	font-weight: 700;
+}
+.italic {
+	font-style: italic;
+}
+
+.capitalize {
+	text-transform: capitalize;
+}
+.uppercase {
+	text-transform: uppercase;
+}
+.lowercase {
+	text-transform: lowercase;
+}
+.center {
+	text-align: center;
+}
