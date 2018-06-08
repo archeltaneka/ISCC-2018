@@ -159,6 +159,9 @@ html {
     .grid-item img {
       width: 90%;
       margin: 5%; }
+    @media (max-width: 767px) {
+      .grid-item {
+        width: 70%; } }
 
 .half {
   display: flex;

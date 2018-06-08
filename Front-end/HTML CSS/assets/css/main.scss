@@ -58,6 +58,9 @@ html {
 			width: 90%;
 			margin: 5%;
 		}
+		@include breakpoint(phone) {
+			width: 70%;
+		}
 	}
 }
 .half {
