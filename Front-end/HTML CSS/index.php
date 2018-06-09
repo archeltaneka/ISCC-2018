@@ -101,7 +101,9 @@
 
 				<!-- location -->
 				<div class="about__location half">
-					<div id="map" class="half__image"></div>
+					<div id="map" class="half__image">
+						<img style="width: 100%; height: 100%;" src="/assets/img/map.png">
+					</div>
 					<div class="half__content">
 						<h1 class="title">location</h1>
 						<p class="body">FX Sudirman Binus Campus</p>
@@ -261,7 +263,7 @@
 		<?php include('footer.php')?>
 
 		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-		<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBu-916DdpKAjTmJNIgngS6HL_kDIKU0aU&callback=myMap"></script>
+		<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBu-916DdpKAjTmJNIgngS6HL_kDIKU0aU&callback=showMap"></script>
 		<script type="text/javascript">
 
 			currentDate = new Date(2018, 7, 20, 23, 59, 59);
