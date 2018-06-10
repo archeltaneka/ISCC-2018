@@ -175,7 +175,6 @@ html {
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
-    background-image: linear-gradient(rgba(34, 93, 125, 0.5), rgba(34, 93, 125, 0.5));
     display: flex;
     flex-flow: column wrap;
     align-items: center;
@@ -187,6 +186,9 @@ html {
       letter-spacing: 25px;
       text-indent: 25px;
       line-height: 1.5; }
+    @media (max-width: 768px) {
+      .half__image {
+        background-attachment: scroll; } }
   .half__content {
     align-items: center;
     display: flex;
@@ -236,10 +238,12 @@ html {
     margin: 0 auto;
     width: 50%; }
   @media (max-width: 768px) {
-    .home .title {
-      font-size: 36px; }
-    .home .subtitle {
-      font-size: 18px; } }
+    .home {
+      background-attachment: scroll; }
+      .home .title {
+        font-size: 36px; }
+      .home .subtitle {
+        font-size: 18px; } }
 
 .about__iscc .half__image {
   background-image: linear-gradient(rgba(34, 93, 125, 0.5), rgba(34, 93, 125, 0.5)), url("../img/about_background-1.jpg"); }
@@ -260,6 +264,15 @@ html {
   height: 75vh;
   margin: 0 auto;
   width: 75%; }
+.competition__rules .button {
+  display: none; }
+@media (max-width: 768px) {
+  .competition__rules .title {
+    display: none; }
+  .competition__rules iframe {
+    display: none; }
+  .competition__rules .button {
+    display: block; } }
 .competition__timeline img {
   display: block;
   margin: 0 auto; }

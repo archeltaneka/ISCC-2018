@@ -76,10 +76,22 @@ html {
 		background-position: center center;
 		background-repeat: no-repeat;
 		background-size: cover;
-		background-image: linear-gradient(
-			rgba(lighten($dark-blue, 0%), 0.5),
-			rgba(lighten($dark-blue, 0%), 0.5)
-		);
+		// background-image: linear-gradient(
+		// 	rgba(lighten($dark-blue, 0%), 0.5),
+		// 	rgba(lighten($dark-blue, 0%), 0.5)
+		// );
+		// background-image: -webkit-linear-gradient(
+		// 	rgba(lighten($dark-blue, 0%), 0.5),
+		// 	rgba(lighten($dark-blue, 0%), 0.5)
+		// );
+		// background-image: -moz-linear-gradient(
+		// 	rgba(lighten($dark-blue, 0%), 0.5),
+		// 	rgba(lighten($dark-blue, 0%), 0.5)
+		// );
+		// background-image: -o-linear-gradient(
+		// 	rgba(lighten($dark-blue, 0%), 0.5),
+		// 	rgba(lighten($dark-blue, 0%), 0.5)
+		// );
 		display: flex;
 		flex-flow: column wrap;
 		align-items: center;
@@ -91,6 +103,9 @@ html {
 			letter-spacing: 25px;
 			text-indent: 25px;
 			line-height: 1.5;
+		}
+		@include breakpoint(phone) {
+			background-attachment: scroll;
 		}
 	}
 	&__content {
@@ -163,6 +178,7 @@ html {
 		width: 50%;
 	}
 	@include breakpoint(phone) {
+		background-attachment: scroll;
 		.title {
 			font-size: 36px;
 		}
@@ -211,6 +227,20 @@ html {
 			height: 75vh;
 			margin: 0 auto;
 			width: 75%;
+		}
+		.button {
+			display: none;
+		}
+		@include breakpoint(phone) {
+			.title {
+				display: none;
+			}
+			iframe {
+				display: none;
+			}
+			.button {
+				display: block;
+			}
 		}
 	}
 	&__timeline {

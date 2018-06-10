@@ -30,7 +30,7 @@
 					<p class="subtitle" id="countdown"></p>
 					<!-- button -->
 					<div class="home__button">
-						<a href="#" class="button">Register here</a>
+						<a href="https://docs.google.com/forms/d/e/1FAIpQLSc9Hrf9bcWe_yLaZeU4ciATZPMlQKZS29LF3GwnqU9Lq8o0sA/viewform" class="button" target="_blank">Register here</a>
 					</div>
 				</div>
 
@@ -184,6 +184,7 @@
 				<div class="competition__rules content__centered-2">
 					<h1 class="title">rules and regulations</h1>
 					<iframe src="/assets/files/Rules.pdf"></iframe>
+					<a href="/assets/files/Rules.pdf" class="button center" target="_blank">Rules and Regulations</a>
 					<!-- <div class="rules__prelim">
 						<iframe src=""></iframe>
 					</div>
