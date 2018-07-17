@@ -76,14 +76,6 @@
 						<p class="body">
 							Participants compete on solving information system related cases designed by world class institutions and corporations that encompasses an array of relevant problems of in modern day society, encouraging participants to innovate in order to bring their best solution. In proportion to the quality cases, the competition will be judged by local and foreign Industry Experts and professionals.
 						</p>
-						<br><br>
-						<p class="body">
-							ISCC is renowed for its ability to provide quality cases that challenge participants to think critically and produce an innovative solution that can be applied in the real world. ISCC has also been highly praised by lecturers from other universities in providing useful cases which were utilized for their teaching materials in addition to being a platform for students to showcase their abilities in solving real-world cases.
-						</p>
-						<br><br>
-						<p class="body">
-							This year, ISCC is back with more challenging cases and more exciting competition structure.
-						</p>
 					</div>
 				</div>
 
