@@ -215,7 +215,7 @@
 				</div>
 			</div>
 			<!-- split grid -->
-			<!-- <div class="partners__split-grid">
+			<div class="partners__split-grid">
 				<div class="partners__media">
 					<h1 class="title center uppercase">media partners</h1>
 					<div class="grid">
@@ -233,7 +233,7 @@
 						?>
 					</div>
 				</div>
-				<div class="partners__sponsor">
+				<!-- <div class="partners__sponsor">
 					<h1 class="title center uppercase">sponsors</h1>
 					<div class="grid">
 						<?php
@@ -249,8 +249,8 @@
 							}
 						?>
 					</div>
-				</div>
-			</div> -->
+				</div> -->
+			</div>
 		</div>
 
 		<?php include('footer.php')?>
