@@ -26,12 +26,12 @@
 
 				<!-- countdown -->
 				<div class="home__countdown">
-					<h1 class="subtitle capitalize">registration closes in:</h1>
-					<p class="subtitle" id="countdown"></p>
+					<h1 class="subtitle capitalize">Registration Closed!</h1>
+					<!-- <p class="subtitle" id="countdown"></p> -->
 					<!-- button -->
-					<div class="home__button">
+					<!-- <div class="home__button">
 						<a href="https://docs.google.com/forms/d/e/1FAIpQLSc9Hrf9bcWe_yLaZeU4ciATZPMlQKZS29LF3GwnqU9Lq8o0sA/viewform" class="button" target="_blank">Register here</a>
-					</div>
+					</div> -->
 				</div>
 
 			</div>
