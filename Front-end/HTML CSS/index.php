@@ -225,7 +225,7 @@
 								if($fileinfo->isFile() && $fileinfo->getFilename()!=".DS_Store"){
 						?>
 						<div class="grid-item">
-							<img style="width: 50%; padding-left: 15%; margin: 5%;" src="<?php echo($fileinfo->getPathname())?>">
+							<img style="width: 60%; padding-left: 25%; margin: 5%;" src="<?php echo($fileinfo->getPathname())?>">
 						</div>
 						<?php
 								}
