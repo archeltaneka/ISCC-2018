@@ -245,6 +245,26 @@ html {
       .home .subtitle {
         font-size: 18px; } }
 
+.results__list {
+  text-align: center; }
+  .results__list .title, .results__list .body {
+    text-transform: uppercase;
+    letter-spacing: 7.5px; }
+  .results__list .body {
+    font-size: 20px;
+    letter-spacing: 3px;
+    color: #393939; }
+  .results__list .list {
+    font-size: 15px;
+    letter-spacing: 0;
+    list-style: decimal;
+    text-transform: capitalize; }
+    .results__list .list li {
+      list-style-position: inside; }
+  @media (max-width: 768px) {
+    .results__list .title {
+      font-size: 35px; } }
+
 .about__iscc .half__image {
   background-image: linear-gradient(rgba(34, 93, 125, 0.5), rgba(34, 93, 125, 0.5)), url("../img/about_background-1.jpg"); }
 .about__case .half__image {

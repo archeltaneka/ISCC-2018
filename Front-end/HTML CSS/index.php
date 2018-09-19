@@ -37,6 +37,31 @@
 			</div>
 		</div>
 
+		<!-- Semi Finalist -->
+		<div class="results container">
+			<div class="container__inner">
+				
+				<!-- list -->
+				<div class="results__list">
+					<h1 class="title">congrats</h1>
+					<p class="body">to top 10 semifinalists</p>
+					<ol class="list body">
+						<li>hello</li>
+						<li>hello</li>
+						<li>hello</li>
+						<li>hello</li>
+						<li>hello</li>
+						<li>hello</li>
+						<li>hello</li>
+						<li>hello</li>
+						<li>hello</li>
+						<li>hello</li>
+					</ol>
+				</div>
+
+			</div>
+		</div>
+
 		<!-- About -->
 		<div class="about container" id="about">
 			<div class="container__inner">

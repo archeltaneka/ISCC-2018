@@ -187,6 +187,34 @@ html {
 		}
 	}
 }
+.results {
+	&__list {
+		text-align: center;
+		.title, .body {
+			text-transform: uppercase;
+			letter-spacing: 7.5px;
+		}
+		.body {
+			font-size: 20px;
+			letter-spacing: 3px;
+			color: #393939;
+		}
+		.list {
+			font-size: 15px;
+			letter-spacing: 0;
+			list-style: decimal;
+			text-transform: capitalize;
+			li {
+				list-style-position: inside;
+			}
+		}
+		@include breakpoint(phone) {
+			.title {
+				font-size: 35px;
+			}
+		}
+	}
+}
 .about {
 	&__iscc {
 		.half__image {
