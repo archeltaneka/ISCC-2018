@@ -26,12 +26,12 @@
 
 				<!-- countdown -->
 				<div class="home__countdown">
-					<h1 class="subtitle capitalize">registration closes in:</h1>
-					<p class="subtitle" id="countdown"></p>
+					<h1 class="subtitle capitalize">Registration Closed!</h1>
+					<!-- <p class="subtitle" id="countdown"></p> -->
 					<!-- button -->
-					<div class="home__button">
+					<!-- <div class="home__button">
 						<a href="https://docs.google.com/forms/d/e/1FAIpQLSc9Hrf9bcWe_yLaZeU4ciATZPMlQKZS29LF3GwnqU9Lq8o0sA/viewform" class="button" target="_blank">Register here</a>
-					</div>
+					</div> -->
 				</div>
 
 			</div>
@@ -100,14 +100,6 @@
 						<br><br>
 						<p class="body">
 							Participants compete on solving information system related cases designed by world class institutions and corporations that encompasses an array of relevant problems of in modern day society, encouraging participants to innovate in order to bring their best solution. In proportion to the quality cases, the competition will be judged by local and foreign Industry Experts and professionals.
-						</p>
-						<br><br>
-						<p class="body">
-							ISCC is renowed for its ability to provide quality cases that challenge participants to think critically and produce an innovative solution that can be applied in the real world. ISCC has also been highly praised by lecturers from other universities in providing useful cases which were utilized for their teaching materials in addition to being a platform for students to showcase their abilities in solving real-world cases.
-						</p>
-						<br><br>
-						<p class="body">
-							This year, ISCC is back with more challenging cases and more exciting competition structure.
 						</p>
 					</div>
 				</div>
@@ -248,7 +240,7 @@
 				</div>
 			</div>
 			<!-- split grid -->
-			<!-- <div class="partners__split-grid">
+			<div class="partners__split-grid">
 				<div class="partners__media">
 					<h1 class="title center uppercase">media partners</h1>
 					<div class="grid">
@@ -258,7 +250,7 @@
 								if($fileinfo->isFile() && $fileinfo->getFilename()!=".DS_Store"){
 						?>
 						<div class="grid-item">
-							<img src="<?php echo($fileinfo->getPathname())?>">
+							<img style="width: 60%; padding-left: 25%; margin: 5%;" src="<?php echo($fileinfo->getPathname())?>">
 						</div>
 						<?php
 								}
@@ -266,7 +258,7 @@
 						?>
 					</div>
 				</div>
-				<div class="partners__sponsor">
+				<!-- <div class="partners__sponsor">
 					<h1 class="title center uppercase">sponsors</h1>
 					<div class="grid">
 						<?php
@@ -282,8 +274,8 @@
 							}
 						?>
 					</div>
-				</div>
-			</div> -->
+				</div> -->
+			</div>
 		</div>
 
 		<?php include('footer.php')?>
