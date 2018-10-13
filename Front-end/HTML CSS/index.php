@@ -26,7 +26,9 @@
 
 				<!-- countdown -->
 				<div class="home__countdown">
-					<h1 class="subtitle capitalize">Registration Closed!</h1>
+					<!-- VIDEO GOES HERE -->
+					<iframe width="560" height="315" src="https://www.youtube.com/embed/3KBT_QKLnF4" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+					<!-- <h1 class="subtitle capitalize">Registration Closed!</h1> -->
 					<!-- <p class="subtitle" id="countdown"></p> -->
 					<!-- button -->
 					<!-- <div class="home__button">
@@ -37,30 +39,84 @@
 			</div>
 		</div>
 
+		<!-- Winners -->
+		<!--<div class="about container" id="about">-->
+		<!--	<div class="container__inner">-->
+		<!--		<div class="about__theme content__centered">-->
+		<!--			<h1 class="title">congrats</h1>-->
+		<!--			<p class="body">to winners</p>-->
+		<!--		</div>-->
+
+				<!-- 1st place -->
+		<!--		<div class="winners2__iscc half">-->
+		<!--			<div class="half__image")></div>-->
+		<!--			<div class="half__content">-->
+		<!--				<p class="body">-->
+		<!--					 <h1 class="title">winner - lowkey of hkust</h1>-->
+		<!--					<p class="body">Kwan Flavia Jofani Susanto</p>-->
+		<!--					<p class="body">Matthew Elias Lau</p>-->
+		<!--					<p class="body">Enoch Wong</p>-->
+		<!--				</p>-->
+		<!--			</div>-->
+		<!--		</div>-->
+
+				<!-- 2nd place -->
+				<!--<div class="winners__case half">-->
+				<!--	<div class="half__content">-->
+				<!--		<h1 class="title">1st runner up - ravangers of itb</h1>-->
+				<!--		<p class="body">Balya Ibnu Sulistiyono</p>-->
+				<!--		<p class="body">Aliyah Sausan Huwel</p>-->
+				<!--		<p class="body">Teo Wijayarto</p>-->
+				<!--	</div>-->
+				<!--	<div class="half__image"></div>-->
+				<!--</div>-->
+
+				<!-- 3rd place -->
+		<!--		<div class="winners3__case half">-->
+		<!--		    <div class="half__image")></div>-->
+		<!--			<div class="half__content">-->
+		<!--				<h2 class="title">2nd runner up - spartaits of its</h1>-->
+		<!--				<p class="body">sebastian pratama ateng</p>-->
+		<!--				<p class="body">christian hamonangan sitohang</p>-->
+		<!--				<p class="body">benedict timotius christian</p>-->
+		<!--			</div>-->
+		<!--		</div>-->
+		<!--	</div>-->
+		<!--</div>-->
+
 		<!-- Semi Finalist -->
 		<div class="results container">
 			<div class="container__inner">
 				
-				<!-- list -->
+				 <!--list -->
 				<div class="results__list">
-					<h1 class="title">congrats</h1>
-					<p class="body">to top 10 semifinalists</p>
+					<h1 class="title">Top 10 Semi-finalists</h1>
+					<p class="body" style="font-size: 20px">
+						Taking our case partner's scoring rubrics into consideration,
+						the committee has come up with the list of top 10 semifinalists. 
+						This decision is final, unless any teams from the top 10 list 
+						decide to withdraw themselves from the competition.
+					</p>
+					<br>
+					<br>
 					<ol class="list body">
-						<li>hello</li>
-						<li>hello</li>
-						<li>hello</li>
-						<li>hello</li>
-						<li>hello</li>
-						<li>hello</li>
-						<li>hello</li>
-						<li>hello</li>
-						<li>hello</li>
-						<li>hello</li>
+						<li style="font-size: 32px">Lowkey - Hong Kong University of Science and Technology</li>
+						<li style="font-size: 32px">Sparta ITB - Institut Teknologi Bandung</li>
+						<li style="font-size: 32px">Ghifari - Institut Teknologi Bandung</li>
+						<li style="font-size: 32px">Foton - Surya University</li>
+						<li style="font-size: 32px">Ravangers - Institut Teknologi Bandung</li>
+						<!--<li style="font-size: 32px">Magical Brains - Hong Kong University of Science and Technology</li>-->
+						<li style="font-size: 32px">ARC - President University</li>
+						<li style="font-size: 32px">Last Minute to Win It! - Bina Nusantara University</li>
+						<li style="font-size: 32px">Sparta ITS - Institut Teknologi Sepuluh Nopember</li>
+						<li style="font-size: 32px">Syclon - Universitas Indonesia</li>
+						<li style="font-size: 32px">UPM - Universiti Putra Malaysia</li>
 					</ol>
 				</div>
 
 			</div>
 		</div>
+		<hr>
 
 		<!-- About -->
 		<div class="about container" id="about">
