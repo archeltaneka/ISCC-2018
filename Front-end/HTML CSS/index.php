@@ -40,49 +40,74 @@
 		</div>
 
 		<!-- Winners -->
-		<!--<div class="about container" id="about">-->
-		<!--	<div class="container__inner">-->
-		<!--		<div class="about__theme content__centered">-->
-		<!--			<h1 class="title">congrats</h1>-->
-		<!--			<p class="body">to winners</p>-->
-		<!--		</div>-->
+		<div classs="about container">
+			<div class="container__inner">
+				<div class="about__theme content__centered">
+					<h1 class="title">winner - lowkey of hkust</h1>
+					<p class="body">Kwan Flavia Jofani Susanto</p>
+					<p class="body">Matthew Elias Lau</p>
+					<p class="body">Enoch Wong</p>
+					<!-- GAMBAR -->
+					<img src="../img/about_background-2.jpg">
+					<h1 class="title">1st runner up - ravangers of itb</h1>
+					<p class="body">Balya Ibnu Sulistiyono</p>
+					<p class="body">Aliyah Sausan Huwel</p>
+					<p class="body">Teo Wijayarto</p>
+					<!-- GAMBAR -->
+					<img src="../img/about_background-1.jpg">
+					<h2 class="title">2nd runner up - spartaits of its</h1>
+					<p class="body">sebastian pratama ateng</p>
+					<p class="body">christian hamonangan sitohang</p>
+					<p class="body">benedict timotius christian</p>
+					<!-- GAMBAR -->
+					<img src="../img/about_background-3.jpg">
+				</div>
+			</div>
+		</div>
+		<hr>
+		<!-- <div class="about container" id="about">
+			<div class="container__inner">
+				<div class="about__theme content__centered">
+					<h1 class="title">congrats</h1>
+					<p class="body">to winners</p>
+				</div> -->
 
 				<!-- 1st place -->
-		<!--		<div class="winners2__iscc half">-->
-		<!--			<div class="half__image")></div>-->
-		<!--			<div class="half__content">-->
-		<!--				<p class="body">-->
-		<!--					 <h1 class="title">winner - lowkey of hkust</h1>-->
-		<!--					<p class="body">Kwan Flavia Jofani Susanto</p>-->
-		<!--					<p class="body">Matthew Elias Lau</p>-->
-		<!--					<p class="body">Enoch Wong</p>-->
-		<!--				</p>-->
-		<!--			</div>-->
-		<!--		</div>-->
+				<!-- <div class="winners2__iscc half">
+					<div class="half__image")></div>
+					<div class="half__content">
+						<p class="body">
+							 <h1 class="title">winner - lowkey of hkust</h1>
+							<p class="body">Kwan Flavia Jofani Susanto</p>
+							<p class="body">Matthew Elias Lau</p>
+							<p class="body">Enoch Wong</p>
+						</p>
+					</div>
+				</div> -->
 
 				<!-- 2nd place -->
-				<!--<div class="winners__case half">-->
-				<!--	<div class="half__content">-->
-				<!--		<h1 class="title">1st runner up - ravangers of itb</h1>-->
-				<!--		<p class="body">Balya Ibnu Sulistiyono</p>-->
-				<!--		<p class="body">Aliyah Sausan Huwel</p>-->
-				<!--		<p class="body">Teo Wijayarto</p>-->
-				<!--	</div>-->
-				<!--	<div class="half__image"></div>-->
-				<!--</div>-->
+				<!-- <div class="winners__case half">
+					<div class="half__content">
+						<h1 class="title">1st runner up - ravangers of itb</h1>
+						<p class="body">Balya Ibnu Sulistiyono</p>
+						<p class="body">Aliyah Sausan Huwel</p>
+						<p class="body">Teo Wijayarto</p>
+					</div>
+					<div class="half__image"></div>
+				</div> -->
 
 				<!-- 3rd place -->
-		<!--		<div class="winners3__case half">-->
-		<!--		    <div class="half__image")></div>-->
-		<!--			<div class="half__content">-->
-		<!--				<h2 class="title">2nd runner up - spartaits of its</h1>-->
-		<!--				<p class="body">sebastian pratama ateng</p>-->
-		<!--				<p class="body">christian hamonangan sitohang</p>-->
-		<!--				<p class="body">benedict timotius christian</p>-->
-		<!--			</div>-->
-		<!--		</div>-->
-		<!--	</div>-->
-		<!--</div>-->
+				<!-- <div class="winners3__case half">
+				    <div class="half__image")></div>
+					<div class="half__content">
+						<h2 class="title">2nd runner up - spartaits of its</h1>
+						<p class="body">sebastian pratama ateng</p>
+						<p class="body">christian hamonangan sitohang</p>
+						<p class="body">benedict timotius christian</p>
+					</div>
+				</div>
+			</div>
+		</div> -->
 
 		<!-- Semi Finalist -->
 		<div class="results container">
